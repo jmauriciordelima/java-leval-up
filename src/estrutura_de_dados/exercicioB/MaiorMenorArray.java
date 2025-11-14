@@ -11,44 +11,48 @@ public class MaiorMenorArray {
         this.numeros = numeros;
     }
 
-    public void maiorNumero(int[] numeros) {
+    public void maiorNumero() {
 
-        int maior = -1;
+        int maior = numeros[0];
+        int indice = 0;
 
         for (int i = 0; i < numeros.length; i++) {
             if (numeros[i] > maior) {
                 maior = numeros[i];
+                indice = i;
             }
         }
 
-        System.out.println("O maior número é: " + maior);
+        System.out.println("O maior número é: " + maior +
+                " no indice: " + indice);
 
     }
 
-    public void menorNumero(int[] numeros) {
+    public void menorNumero() {
 
         int menor = numeros[0];
+        int indice = 0;
 
         for (int i = 0; i < numeros.length; i++) {
             if (numeros[i] < menor) {
                 menor = numeros[i];
+                indice = i;
             }
         }
 
-        System.out.println("O menor número é: " + menor);
-
+        System.out.println("O menor número é: " + menor +
+                " no indice: " + indice);
     }
 
-    public void mediaNumero(int[] numeros) {
+    public void mediaNumero() {
 
-        double media = -1;
         int soma = 0;
 
         for (int numero : numeros) {
             soma += numero;
         }
 
-        media = ((double) soma / numeros.length);
+        double media = (double) soma / numeros.length;
 
         System.out.println("A média do array é de: " + media);
 

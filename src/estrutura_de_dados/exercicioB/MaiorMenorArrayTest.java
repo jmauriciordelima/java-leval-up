@@ -9,9 +9,9 @@ public class MaiorMenorArrayTest {
         MaiorMenorArray maiorMenorArray = new MaiorMenorArray();
         maiorMenorArray.setNumeros(array);
 
-        maiorMenorArray.maiorNumero(array);
-        maiorMenorArray.menorNumero(array);
-        maiorMenorArray.mediaNumero(array);
+        maiorMenorArray.maiorNumero();
+        maiorMenorArray.menorNumero();
+        maiorMenorArray.mediaNumero();
 
         
     }
