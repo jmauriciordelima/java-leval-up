@@ -1,4 +1,4 @@
-package estrutura_de_dados.exercicioE;
+package estrutura_de_dados.array.exercicioE;
 
 import java.util.Scanner;
 

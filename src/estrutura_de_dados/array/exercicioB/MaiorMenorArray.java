@@ -1,4 +1,4 @@
-package estrutura_de_dados.exercicioB;
+package estrutura_de_dados.array.exercicioB;
 
 public class MaiorMenorArray {
 

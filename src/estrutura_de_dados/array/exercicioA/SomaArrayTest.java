@@ -1,4 +1,4 @@
-package estrutura_de_dados.exercicioA;
+package estrutura_de_dados.array.exercicioA;
 
 public class SomaArrayTest {
 

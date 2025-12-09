@@ -1,4 +1,4 @@
-package estrutura_de_dados.exercicioC;
+package estrutura_de_dados.array.exercicioC;
 
 public class NomesInversosTest {
 

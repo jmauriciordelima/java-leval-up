@@ -1,4 +1,4 @@
-package estrutura_de_dados.exercicioD;
+package estrutura_de_dados.array.exercicioD;
 
 public class ContagemParImparTest {
 
